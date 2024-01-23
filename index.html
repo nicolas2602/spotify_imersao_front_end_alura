@@ -20,77 +20,73 @@
                 </a>
             </div>
             
-            <div class="list_menu">
-                <ul>
-                    <li>
-                        <a href="">
-                            <span class="fa fa-home"></span>
-                            <span>Início</span>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="">
-                            <span class="fa fa-search"></span>
-                            <span>Buscar</span>
-                        </a>
-                    </li>
-                </ul>
-            </div>
+            <ul>
+                <li>
+                    <a href="">
+                        <span class="fa fa-home"></span>
+                        <span>Início</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        <span class="fa fa-search"></span>
+                        <span>Buscar</span>
+                    </a>
+                </li>
+            </ul>
+            
         </nav>
 
-        <br>
-        <!-- Menu de biblioteca -->
-        <nav class="sidebar__library">
-            <div class="container">
-                <div class="logo_library expandir">
-                    <a href="">
-                        <span class="fa fa-book"></span>
-                        <span>Sua biblioteca</span>
-                    </a>
-                </div>
-                <div class="logo_library expandir_grow">
-                    <a href="">
-                        <span class="fa fa-plus"></span>
-                    </a>
-                </div>
+        <!-- Menu "Sua Biblioteca"-->
+        <div class="library">
+            <div class="library__content">
+                <button class="library__button">
+                    <span class="fa fas fa-book"></span>
+                    <span>Sua biblioteca</span>
+                </button>
+                <span class="fa fa-plus"></span>
             </div>
 
-            <br>
-
-            <div class="sub_sidebar">
-                <div class="descricao">
-                    <ul>
-                        <li><p id="negrito">Crie a sua primeira playlist</p></li>
-                        <li id="text"><p id="normal">É fácil, vamos te ajudar.</p></li>
-                        <li><a href="">Criar playlist</a></li>
-                    </ul>
+            <section class="section-playlist">
+                <div class="section-playlist__content">
+                    <span class="text title">Crie sua primeira playlist</span>
+                    <span class="text subtitle">É fácil, vamos te ajudar.</span>
+                    <button class="section-playlist__button">
+                        <span>Criar playlist</span>
+                    </button>
                 </div>
+            </section>
+
+            <div class="cookies">
+                <a href="">Cookies</a>
             </div>
 
-            <div class="cookie">
-                <div>
-                    <ul>
-                        <li>Cookies</li>
-                    </ul>
-                </div>
+            <div class="languages">
+                <button class="languages__button">
+                    <span class="fa fa-globe"></span>
+                    <span>Português do Brasil</span>
+                </button>
             </div>
-
-            <div class="globe_lang">
-                <div class="sup">
-                    <ul>
-                        <li>
-                            <a href="">
-                                <span class="fa fa-globe"></span>
-                                <span>Português do Brasil</span>
-                            </a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-
-            <br>
-
-        </nav>
+        </div>
     </div>
+
+    <footer class="rodape">
+        <div class="descricao__rodape">
+            <div class="item item-text">
+                <span class="text_rod title_rod">Testar o Premium de graça </span>
+                <span class="text_rod subtitle_rod">
+                    Inscreva-se para curtir música ilimitada
+                    e podcasts só com alguns anúncios. Não precisa de cartão de 
+                    crédito
+                </span>
+            </div>
+            <div class="item item-btn">
+                <button class="button__rodape">
+                    Inscreva-se grátis
+                </button>
+            </div>
+        </div>
+    </footer>
+
 </body>
 </html>
