@@ -1,5 +1,5 @@
 # Spotify - Imersão Front-End Alura
-Projeto baseado no site do Spotify, utilizando HTML, CSS e JavaScript.
+Curso de Front-End da Alura com objetivo de desenvolver o site do Spotify.
 
 __Aula 1:__
 Na primeira aula, foi explicado os conceitos básicos de HTMl, CSS e JavaScript. Na aula, também deram início ao projeto do site do Spotify, começando pela parte de menu inicial (parte da logo da plataforma e os menus de início e busca).
