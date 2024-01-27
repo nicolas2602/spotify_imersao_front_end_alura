@@ -1,0 +1,23 @@
+.red{
+    background-color: var(--vermelho);
+}
+
+.blue{
+    background-color: var(--azul);
+}
+
+.green{
+    background-color: var(--verde);
+}
+
+.yellow{
+    background-color: var(--amarelo);
+}
+
+.silver{
+    background-color: var(--cinza);
+}
+
+.brown{
+    background-color: var(--marrom);
+}

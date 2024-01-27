@@ -3,11 +3,19 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="reset.css">
-    <link rel="stylesheet" href="style.css">
+
+    <link rel="shortcut icon" href="./src/assets/icons/favicon.png" type="image/x-icon">
+
+    <link rel="stylesheet" href="./style/reset.css">
+    <link rel="stylesheet" href="./style/vars.css">
+    <link rel="stylesheet" href="./style/sidebar-footer.css">
+    <link rel="stylesheet" href="./style/main-content.css">
+    <link rel="stylesheet" href="./style/article-card.css">
+    <link rel="stylesheet" href="./style/color.css">
+
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/solid.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/fontawesome.css">
-    <title>Aula 1 - Imersão Front-End Alura</title>
+    <title>Spotify - Imersão Front-End Alura</title>
 </head>
 
 <body>
@@ -16,7 +24,7 @@
         <nav class="sidebar__navigation">
             <div class="logo">
                 <a href="">
-                    <img src="./assets/icons/logo-spotify.png" alt="Logo do Spotify" />
+                    <img src="./src/assets/icons/logo-spotify.png" alt="Logo do Spotify" />
                 </a>
             </div>
             
@@ -70,6 +78,80 @@
         </div>
     </div>
 
+    <main>
+        <div class="main-container">
+            <nav class="header__navigation">
+                <div class="navigation">
+                    <button class="arrow-left">
+                        <img src="./src/assets/icons/small-left.png" alt="Seta esquerda">
+                    </button>
+                    <button class="arrow-right">
+                        <img src="./src/assets/icons/small-right.png" alt="Seta direita">
+                    </button>
+                </div>
+                <div class="header__search">
+                    <img src="./src/assets/icons/search.png" alt="">
+                    <input id="search-input" type="text" maxlength="800" placeholder="O que você quer ouvir?" />
+                </div>
+                <div class="header__login">
+                    <button class="subscribe">Inscreva-se</button>
+                    <button class="login">Entrar</button>
+                </div>
+            </nav>
+
+            <article class="article">
+                <div class="article-title">
+                    <h1>Boa tarde</h1>
+                </div>
+                <div class="article-subtitle">
+                    <h1>Navegar por todas as seções</h1>
+                </div>
+                <div class="article-card">
+                    <div class="line-card coluna">
+                        <div class="line-card-text red">
+                            <h1>Boas festas</h1>
+                            <img src="./src/assets/playlist/1.jpeg" alt="" />
+                        </div>
+                        <div class="line-card-text green">
+                            <h1>Feitos para você</h1>
+                            <img src="./src/assets/playlist/2.png" alt="" />
+                        </div>
+                        <div class="line-card-text yellow">
+                            <h1>Lançamentos</h1>
+                            <img src="./src/assets/playlist/3.jpeg" alt="" />
+                        </div>
+                        <div class="line-card-text blue">
+                            <h1>Creators</h1>
+                            <img src="./src/assets/playlist/4.jpeg" alt="" />
+                        </div>
+                        <div class="line-card-text silver">
+                            <h1>Para treinar</h1>
+                            <img src="./src/assets/playlist/5.jpeg" alt="" />
+                        </div>
+                        <div class="line-card-text brown">
+                            <h1>Podcast</h1>
+                            <img src="./src/assets/playlist/6.jpeg" alt="" />
+                        </div>
+                        <div class="line-card-text red">
+                            <h1>Samba e Pagode</h1>
+                            <img src="./src/assets/playlist/7.jpeg" alt="" />
+                        </div>
+                        <div class="line-card-text green">
+                            <h1>Funk</h1>
+                            <img src="./src/assets/playlist/8.jpeg" alt="" />
+                        </div>
+                        <div class="line-card-text yellow">
+                            <h1>MPB</h1>
+                            <img src="./src/assets/playlist/9.jpeg" alt="" />
+                        </div>
+                    </div>
+                </div>
+            </article>
+
+        </div>
+    </main>
+
+    <!-- Footer -->
     <footer class="rodape">
         <div class="descricao__rodape">
             <div class="item item-text">

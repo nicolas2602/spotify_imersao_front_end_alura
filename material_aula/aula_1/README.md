@@ -1,1 +1,0 @@
-# spotify_imersao_front_end_alura
