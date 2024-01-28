@@ -16,7 +16,8 @@ Segue a imagem do desafio concluído abaixo:
 __Aula 3:__
 Na terceira aula, foi desenvolvido a parte do menu superior, contendo o campo de digitar a pesquisa e os botões de "Inscreva-se" e "Entrar". Durante a aula, foi introduzido o conceito de responsividade, aonde a página precisa ficar bem estruturada conforme o tamanho da tela do dispositivo. E no final da aula, ficou o desafio de desenvolver a parte da playlist de música, contendo a barra de rolagem. Segue a imagem do desafio concluído abaixo:
 
-![image](https://github.com/nicolas2602/spotify_imersao_front_end_alura/assets/69517285/555bf937-807a-4da6-8d0b-197678026fdc)
+![image](https://github.com/nicolas2602/spotify_imersao_front_end_alura/assets/69517285/a3f186e4-fbed-4aba-8540-7850a9ccd2b6)
+
 
 
 
