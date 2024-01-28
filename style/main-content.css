@@ -147,6 +147,7 @@
     margin-right: 100px;
     font-size: 25px;
     font-weight: bold;
+    overflow: hidden;
 }
 
 .article .article-card .line-card .line-card-text{
@@ -154,11 +155,19 @@
     padding-left: 12px;
 }
 
-.article .article-card .line-card .line-card-text img{
+.line-card img{
     max-width: 120px;
     margin-left: 56%;
     margin-top: 55px;
     transform: rotate(15deg);
+}
+
+.hidden{
+    display: none;
+}
+
+#result-artist {
+    padding: 20px 40px;
 }
 
 /* Media Queries - responsividade*/
