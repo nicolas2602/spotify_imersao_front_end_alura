@@ -1,5 +1,5 @@
 # Spotify - Imersão Front-End Alura
-Curso de Front-End da Alura com o objetivo de desenvolver a página do Spotify.
+Curso de Front-End da Alura com o objetivo de desenvolver a página do Spotify. #ImersãoFrontEnd #Alura
 
 __Aula 1:__
 Na primeira aula, foi explicado os conceitos básicos de HTMl, CSS e JavaScript. Na aula, também deram o início ao projeto do site do Spotify, começando pela parte de menu inicial (parte da logo da plataforma e os menus de início e busca).
