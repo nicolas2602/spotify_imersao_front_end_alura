@@ -2,7 +2,7 @@
 Curso de Front-End da Alura com o objetivo de desenvolver a página do Spotify. #ImersãoFrontEnd #Alura
 
 __Aula 1:__
-Na primeira aula, foi explicado os conceitos básicos de HTMl, CSS e JavaScript. Na aula, também deram o início ao projeto do site do Spotify, começando pela parte de menu inicial (parte da logo da plataforma e os menus de início e busca).
+Na primeira aula, foi explicado os conceitos básicos de HTMl, CSS e JavaScript. Após os conceitos, deram o início ao projeto da página do Spotify, começando pela parte de menu inicial (parte da logo da plataforma e os menus de início e busca).
 No final da aula, ficou o desafio de desenvolver a parte de "Sua biblioteca". Segue a imagem do desafio concluído abaixo:
 
 ![image](https://github.com/nicolas2602/spotify_imersao_front_end_alura/assets/69517285/2efca58c-4f6c-493c-9bef-232b039dba2d)
@@ -18,6 +18,8 @@ Na terceira aula, foi desenvolvido a parte do menu superior, contendo o campo de
 
 ![image](https://github.com/nicolas2602/spotify_imersao_front_end_alura/assets/69517285/a3f186e4-fbed-4aba-8540-7850a9ccd2b6)
 
+__Aula 4:__
+Na quarta aula, foi explicado os conceitos de grid e media queries do CSS para alinhar os cards da playlist. Após a estilização da página, os instrutores introduziram o cérebro da página, a linguagem JavaScript, utilizando os conceitos de manipulação de eventos (DOM) para consumir uma API Fake de busca, com o arquivo do tipo ".json", contendo os nome de artistas e bandas. Segue a imagem da API funcionando abaixo:
 
-
+![image](https://github.com/nicolas2602/spotify_imersao_front_end_alura/assets/69517285/66f6d747-ef2c-482f-bc1d-4dd2895f4966)
 
