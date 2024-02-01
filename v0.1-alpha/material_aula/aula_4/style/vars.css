@@ -1,0 +1,15 @@
+/* Variáveis em CSS */
+:root{
+    /* FONT */
+    --font-dm-sans: "DM Sans", sans-serif;
+
+    /* COLORS */
+    --bg-icon: #131313;
+    --bg-arrow-color: rgba(0, 0, 0, 7);
+    --verde: rgb(92, 240, 92);
+    --vermelho: rgb(235, 124, 124);
+    --azul: rgb(187, 187, 245);
+    --amarelo: rgb(204, 204, 10);
+    --cinza: silver;
+    --marrom: #884f4f;
+}

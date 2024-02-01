@@ -1,0 +1,6 @@
+.main-container{
+    max-width: 80vw; /* viewport width - responsividade */
+    height: 100vh; /* viewport height - responsividade */
+    margin-left: 320px;
+    margin-right: 56px;
+}

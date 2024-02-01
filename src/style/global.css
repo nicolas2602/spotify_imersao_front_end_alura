@@ -1,0 +1,33 @@
+body {
+    background-color: #000;
+    font-family: var(--font-dm-sans);
+    text-decoration: none;
+}
+
+h1 {
+    color: #fff;
+}
+
+.red{
+    background-color: var(--vermelho);
+}
+
+.blue{
+    background-color: var(--azul);
+}
+
+.green{
+    background-color: var(--verde);
+}
+
+.yellow{
+    background-color: var(--amarelo);
+}
+
+.silver{
+    background-color: var(--cinza);
+}
+
+.brown{
+    background-color: var(--marrom);
+}

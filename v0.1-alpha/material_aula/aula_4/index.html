@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="shortcut icon" href="./src/assets/icons/favicon.png" type="image/x-icon">
+
+    <link rel="stylesheet" href="./style/reset.css">
+    <link rel="stylesheet" href="./style/vars.css">
+    <link rel="stylesheet" href="./style/sidebar-footer.css">
+    <link rel="stylesheet" href="./style/main-content.css">
+    <link rel="stylesheet" href="./style/article-card.css">
+    <link rel="stylesheet" href="./style/color.css">
+    <link rel="stylesheet" href="./style/media-queries.css">
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/solid.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/fontawesome.css">
+    <title>Spotify - Imersão Front-End Alura</title>
+</head>
+
+<body>
+    <!-- Menu de navegação -->
+    <div class="sidebar">
+        <nav class="sidebar__navigation">
+            <div class="logo">
+                <a href="">
+                    <img src="./src/assets/icons/logo-spotify.png" alt="Logo do Spotify" />
+                </a>
+            </div>
+            
+            <ul>
+                <li>
+                    <a href="">
+                        <span class="fa fa-home"></span>
+                        <span>Início</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        <span class="fa fa-search"></span>
+                        <span>Buscar</span>
+                    </a>
+                </li>
+            </ul>
+            
+        </nav>
+
+        <!-- Menu "Sua Biblioteca"-->
+        <div class="library">
+            <div class="library__content">
+                <button class="library__button">
+                    <span class="fa fas fa-book"></span>
+                    <span>Sua biblioteca</span>
+                </button>
+                <span class="fa fa-plus"></span>
+            </div>
+
+            <section class="section-playlist">
+                <div class="section-playlist__content">
+                    <span class="text title">Crie sua primeira playlist</span>
+                    <span class="text subtitle">É fácil, vamos te ajudar.</span>
+                    <button class="section-playlist__button">
+                        <span>Criar playlist</span>
+                    </button>
+                </div>
+            </section>
+
+            <div class="cookies">
+                <a href="">Cookies</a>
+            </div>
+
+            <div class="languages">
+                <button class="languages__button">
+                    <span class="fa fa-globe"></span>
+                    <span>Português do Brasil</span>
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <main>
+        <div class="main-container">
+            <nav class="header__navigation">
+                <div class="navigation">
+                    <button class="arrow-left">
+                        <img src="./src/assets/icons/small-left.png" alt="Seta esquerda">
+                    </button>
+                    <button class="arrow-right">
+                        <img src="./src/assets/icons/small-right.png" alt="Seta direita">
+                    </button>
+                </div>
+                <div class="header__search">
+                    <img src="./src/assets/icons/search.png" alt="">
+                    <input id="search-input" type="text" maxlength="800" placeholder="O que você quer ouvir?" />
+                </div>
+                <div class="header__login">
+                    <button class="subscribe">Inscreva-se</button>
+                    <button class="login">Entrar</button>
+                </div>
+            </nav>
+
+            <article class="article">
+                <div id="result-playlists">
+                    <div class="article-title">
+                        <h1>Boa tarde</h1>
+                    </div>
+                    <div class="article-subtitle">
+                        <h1>Navegar por todas as seções</h1>
+                    </div>
+            
+                    <div class="article-card">
+                        <div class="line-card coluna">
+                            <div class="line-card-text red">
+                                <h1>Boas festas</h1>
+                                <img src="./src/assets/playlist/1.jpeg" alt="" />
+                            </div>
+                            <div class="line-card-text green">
+                                <h1>Feitos para você</h1>
+                                <img src="./src/assets/playlist/2.png" alt="" />
+                            </div>
+                            <div class="line-card-text yellow">
+                                <h1>Lançamentos</h1>
+                                <img src="./src/assets/playlist/3.jpeg" alt="" />
+                            </div>
+                            <div class="line-card-text blue">
+                                <h1>Creators</h1>
+                                <img src="./src/assets/playlist/4.jpeg" alt="" />
+                            </div>
+                            <div class="line-card-text silver">
+                                <h1>Para treinar</h1>
+                                <img src="./src/assets/playlist/5.jpeg" alt="" />
+                            </div>
+                            <div class="line-card-text brown">
+                                <h1>Podcast</h1>
+                                <img src="./src/assets/playlist/6.jpeg" alt="" />
+                            </div>
+                            <div class="line-card-text red">
+                                <h1>Samba e Pagode</h1>
+                                <img src="./src/assets/playlist/7.jpeg" alt="" />
+                            </div>
+                            <div class="line-card-text green">
+                                <h1>Funk</h1>
+                                <img src="./src/assets/playlist/8.jpeg" alt="" />
+                            </div>
+                            <div class="line-card-text yellow">
+                                <h1>MPB</h1>
+                                <img src="./src/assets/playlist/9.jpeg" alt="" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="result-artist" class="hidden">
+                    <div class="grid-container">
+                      <div class="artist-card" id="">
+                        <div class="card-img">
+                          <img id="artist-img" class="artist-img" />
+                          <div class="play">
+                            <span class="fa fa-solid fa-play"></span>
+                          </div>
+                        </div>
+                        <div class="card-text">
+                          <a title="Foo Fighters" class="vst" href=""></a>
+                          <span class="artist-name" id="artist-name"></span>
+                          <span class="artist-categorie">Artista</span>
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                </div>
+            </article>
+
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="rodape">
+        <div class="descricao__rodape">
+            <div class="item item-text">
+                <span class="text_rod title_rod">Testar o Premium de graça </span>
+                <span class="text_rod subtitle_rod">
+                    Inscreva-se para curtir música ilimitada
+                    e podcasts só com alguns anúncios. Não precisa de cartão de 
+                    crédito
+                </span>
+            </div>
+            <div class="item item-btn">
+                <button class="button__rodape">
+                    Inscreva-se grátis
+                </button>
+            </div>
+        </div>
+    </footer>
+
+    <script type="text/javascript" src="script.js"></script>
+</body>
+</html>

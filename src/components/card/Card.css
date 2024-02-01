@@ -1,0 +1,20 @@
+.line-card-text{
+    border-radius: 8px;
+    margin-right: 100px;
+    font-size: 25px;
+    font-weight: bold;
+    overflow: hidden;
+    padding-top: 25px;
+    padding-left: 12px;
+}
+
+.line-card-text h1{
+    text-decoration: none;
+}
+
+.line-card-text img{
+    max-width: 120px;
+    margin-left: 56%;
+    margin-top: 55px;
+    transform: rotate(15deg);
+}
