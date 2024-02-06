@@ -23,3 +23,7 @@ Na quarta aula, foi explicado os conceitos de grid e media queries do CSS para a
 
 ![image](https://github.com/nicolas2602/spotify_imersao_front_end_alura/assets/69517285/66f6d747-ef2c-482f-bc1d-4dd2895f4966)
 
+__Aula 5:__
+Na quinta aula, foi introduzido a biblioteca JavaScript, o React, utilizando os conceitos de components, como o menu lateral e superior, os cards e o rodapé. No final da aula, ficou o desafio de passar a página do Spotify para o React. Segue a imagem da página abaixo:
+
+![image](https://github.com/nicolas2602/spotify_imersao_front_end_alura/assets/69517285/8c2c0816-dab8-4529-9b81-190cb916ec87)
